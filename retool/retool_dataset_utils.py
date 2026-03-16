@@ -14,6 +14,7 @@
 
 answer_format = """\nThe answer format must be: \\boxed{'The final answer goes here.'}"""
 
+
 def map_fn(row: dict, *, data_source: str = None):
     if data_source == "Maxwell-Jia/AIME_2024":
         problem, answer = row["Problem"], row["Answer"]
